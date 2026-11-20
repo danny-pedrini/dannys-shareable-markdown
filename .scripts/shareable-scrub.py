@@ -8,6 +8,8 @@ with real names, links, and figures internally. Usage:
 
 The private config dir (never published) holds:
   names.tsv        full/first<TAB>name<TAB>role. Names become "[role]".
+  directories.txt  stakeholder directories read on every run. Each full name in them is
+                   scrubbed to its role, unless names.tsv already sets one.
   phrases.tsv      literal<TAB>replacement, applied first.
   scale.txt        the factor dollar figures are multiplied by.
   README.md        copied to the export root.
@@ -87,8 +89,37 @@ def load_tsv(name, cols):
     return rows
 
 
+def load_directories():
+    """Full names and short roles from the stakeholder directories, read fresh each run."""
+    skip_name = re.compile(r"\(|team|Sync|Weekly|Standups|Prioritization|Monthly|PMO|et al|Practice|"
+                           r"(?:Product|Experience|Success|Growth|Design|Analytics|Engineering|Backend|Ops|Pharmacy)$", re.I)
+    skip_role = re.compile(r"^(?:Weekly|Monthly|Daily|Bi-?weekly)\b", re.I)
+    found = {}
+    for line in open(os.path.join(PRIV, "directories.txt"), encoding="utf-8"):
+        path = line.strip()
+        if not path or path.startswith("#"):
+            continue
+        if not os.path.exists(path):
+            print("SCRUB_CHECK_FAILED")
+            print(f"stakeholder directory missing: {path}")
+            sys.exit(1)
+        for name, role in re.findall(r"^\| \*\*([^*|]+)\*\* \| ([^|]*)\|", open(path, encoding="utf-8").read(), re.M):
+            name, role = name.strip(), role.replace("`[Needs validation]`", "").strip()
+            if name == "Danny Pedrini" or " " not in name or name in found:
+                continue
+            if skip_name.search(name) or skip_role.search(role):
+                continue
+            role = re.split(r";|\(| — ", role)[0].strip().rstrip(",")
+            if not role or re.fullmatch(r"[A-Z][a-z]+ [A-Z][a-z]+", role):
+                role = "teammate"  # The role column held a manager's name, not a role.
+            found[name] = role
+    return found
+
+
 PHRASES = load_tsv("phrases.tsv", 2)
 NAMES = load_tsv("names.tsv", 3)
+_listed = {n for k, n, _ in NAMES if k == "full"}
+NAMES += [["full", n, r] for n, r in load_directories().items() if n not in _listed]
 # One-word "full" entries (people listed by first name only) follow the first-name rule.
 FULL = sorted([(n, r) for k, n, r in NAMES if k == "full" and " " in n], key=lambda x: -len(x[0]))
 FIRST = sorted([(n, r) for k, n, r in NAMES if k == "first" or (k == "full" and " " not in n)],
