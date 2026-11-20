@@ -4,13 +4,13 @@
 
 | ID | Name | Type | Check | Added | Last Result |
 |----|------|------|-------|-------|-------------|
-| G1 | Link coverage | Generalization | Code | 2026-07-24 | P 2026-10-12 (42/42 links) |
-| G2 | Grounded summaries | Generalization | Judge | 2026-07-24 | P 2026-10-12 (2/2 sampled) |
-| G3 | Marker-link integrity | Generalization | Code | 2026-07-24 | P 2026-10-12 (F on first run: 📌 named in a Flags line; reworded, rerun P) |
-| G4 | Reciprocal cross-references | Generalization | Code | 2026-07-24 | P 2026-10-12 (vacuous: no ↔ added) |
-| G5 | No duplicate entries | Generalization | Code | 2026-07-24 | P 2026-10-12 (72 URLs, 0 dupes) |
-| G6 | Categorization defensibility | Generalization | Judge | 2026-07-24 | P 2026-10-12 (33/33; 4 borderline) |
-| G7 | State integrity | Generalization | Code | 2026-07-24 | P 2026-10-12 (35/35 IDs traced) |
+| G1 | Link coverage | Generalization | Code | 2026-07-24 | P 2026-11-20 (vacuous: 0 explore links; the only link reclassified to skip) |
+| G2 | Grounded summaries | Generalization | Judge | 2026-07-24 | P 2026-11-20 (vacuous: no entries added, judge not run) |
+| G3 | Marker-link integrity | Generalization | Code | 2026-07-24 | P 2026-11-20 (vacuous: no entry lines added) |
+| G4 | Reciprocal cross-references | Generalization | Code | 2026-07-24 | P 2026-11-20 (vacuous: no ↔ added) |
+| G5 | No duplicate entries | Generalization | Code | 2026-07-24 | P 2026-11-20 (0 entries added, 0 dupes) |
+| G6 | Categorization defensibility | Generalization | Judge | 2026-07-24 | P 2026-11-20 (vacuous: no entries added, judge not run) |
+| G7 | State integrity | Generalization | Code | 2026-07-24 | P 2026-11-20 (1/1 ID traced, skip_reason present) |
 
 ## Definitions
 
