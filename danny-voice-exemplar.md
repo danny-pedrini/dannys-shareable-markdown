@@ -24,7 +24,7 @@ Slack sends Danny wrote in the flow of work, added because they show his voice i
 
 > I very, very much like running quick experiments like this to reduce our decision risk on bigger investments. My only question is how quickly and scrappily could we get "good enough" data on this–too much eng work for setup and instrumentation such that it meaningfully detracts from other priorities probably isn't worth it (though it doesn't sound like that needs to be the case here).
 >
-> FWIW, ADS and Finance have sized a few different scenarios all in the neighborhood of $1M annual impact at run rate. The most sensitive assumption is their 40% AHT reduction, which I'm not sure if that's informed by anything or if it's just thumb to the wind.
+> FWIW, ADS and Finance have sized a few different scenarios all in the neighborhood of $1M annual impact at run rate. The most sensitive assumption is their 40% AHT reduction, and I'd want to know what's behind it before we lean on it.
 >
 > Also, it goes without saying that the value of this work goes far beyond the cost savings, and, though we've yet to quantify it, the impact we can have on quality of care and the strategic value of [CTO]'s closed loop vision should be somewhat of a north star too.
 
@@ -32,7 +32,7 @@ Slack sends Danny wrote in the flow of work, added because they show his voice i
 
 - **Calibrated confidence per number.** The $1M is "in the neighborhood of" and the 40% AHT reduction is "the most sensitive assumption." Confidence is earned per claim, never applied as blanket certainty.
 - **Names the tradeoff before endorsing.** He likes the experiment and, in the same breath, flags that too much eng setup "probably isn't worth it." The argument moves by weighing, not asserting.
-- **Names the limit of the evidence before leaning on it.** He flags the 40% AHT reduction as maybe "thumb to the wind" — telling you what the analysis can't support before he builds on it. This is the instinct that writes honest "risks and open questions" sections.
+- **Names the limit of the evidence before leaning on it.** He asks what's behind the 40% AHT reduction — telling you what the analysis can't support before he builds on it. This is the instinct that writes honest "risks and open questions" sections.
 - **Pulls the frame up to the north star.** He lifts the conversation from cost savings to quality of care and the strategic vision without dismissing the cost case.
 - **Caveat, do not imitate:** "it goes without saying" is filler on Danny's own ban list. It survives here only because it's authentically his. In a written artifact, cut it.
 
@@ -65,12 +65,12 @@ Slack sends Danny wrote in the flow of work, added because they show his voice i
 
 ### Work Excerpt 4 — Outreach (how he opens a cold ask)
 
-> Hey [TPM]! I'm Danny, new Galen PM on [Director of Product]'s team. QQ for you - have you put pen to paper on any sort of testing, signoff, launch, and ramp plan for Complete the Chart? I spoke to [teammate] and [Ivy PM] yesterday and I know they haven't. I want to make sure we have a shared plan that we're all aligned with. Happy to start something, but wanted to make sure you didn't already have something first.
+> Hey [TPM]! I'm Danny, new Galen PM on [Director of Product]'s team. QQ for you - have you put pen to paper on any sort of testing, signoff, launch, and ramp plan for Complete the Chart? I checked with [teammate] and [Ivy PM] yesterday, and it sounds like nothing is written down yet. I want to make sure we have a shared plan that we're all aligned with. Happy to start something, but wanted to make sure you didn't already have something first.
 
 **What to imitate:**
 
 - **Fast orientation.** Who he is, why he's writing, and the ask land in two sentences; "QQ for you" sets the effort expectation up front.
-- **Does the homework and says so.** "I spoke to [teammate] and [Ivy PM] yesterday and I know they haven't" makes the ask informed, not lazy.
+- **Does the homework and says so.** "I checked with [teammate] and [Ivy PM] yesterday" makes the ask informed, not lazy.
 - **Leaves the other person room.** "wanted to make sure you didn't already have something first" offers to do the work while respecting their ownership.
 - **Register note:** this is short outreach, not narrative. Borrow the directness and the do-your-homework instinct, not the length.
 

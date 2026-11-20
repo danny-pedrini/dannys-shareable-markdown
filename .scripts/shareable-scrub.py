@@ -12,6 +12,8 @@ The private config dir (never published) holds:
   scale.txt        the factor dollar figures are multiplied by.
   README.md        copied to the export root.
   Reading-List.md  copied to AI-Learning/.
+  link-stubs/      pointer files copied into the export at the same paths, in place of
+                   excluded copies of other people's articles.
 
 Exits 1 and prints what it found if any known name, work email, internal link,
 confidentiality label, or listed phrase survives the scrub.
@@ -165,6 +167,14 @@ def main():
         os.makedirs(os.path.dirname(target), exist_ok=True)
         with open(os.path.join(PRIV, src), encoding="utf-8") as i, open(target, "w", encoding="utf-8") as o:
             o.write(i.read())
+    stubs = os.path.join(PRIV, "link-stubs")
+    for root, _, files in os.walk(stubs):
+        for f in files:
+            src = os.path.join(root, f)
+            target = os.path.join(BUF, os.path.relpath(src, stubs))
+            os.makedirs(os.path.dirname(target), exist_ok=True)
+            with open(src, encoding="utf-8") as i, open(target, "w", encoding="utf-8") as o:
+                o.write(i.read())
     for rel, content in FILE_STUBS.items():
         path = os.path.join(BUF, rel)
         if os.path.exists(path):

@@ -25,6 +25,17 @@ if [ "$CURRENT_BRANCH" != "main" ]; then
     exit 0
 fi
 
+# One run at a time. A lock older than 30 minutes is left over from a killed run.
+LOCK="$SOURCE/.scripts/.shareable-sync.lock"
+if [ -d "$LOCK" ] && [ -n "$(find "$LOCK" -maxdepth 0 -mmin +30)" ]; then
+    rmdir "$LOCK"
+fi
+if ! mkdir "$LOCK" 2>/dev/null; then
+    log "WARN: skipped — another shareable sync is running"
+    exit 0
+fi
+trap 'rmdir "$LOCK" 2>/dev/null' EXIT
+
 if [ ! -d "$SYNC_REPO/.git" ]; then
     # A buffer without its own repo is stale; start it over from the remote.
     rm -rf "$SYNC_REPO"
@@ -40,7 +51,7 @@ fi
 # Build the export in a fresh temp folder, so every run starts from the raw workspace files
 # and files the filter newly excludes simply don't exist there.
 STAGE=$(mktemp -d "${TMPDIR:-/tmp}/shareable-stage.XXXXXX") || { log "ERROR: could not create stage dir"; exit 1; }
-trap 'rm -rf "$STAGE"' EXIT
+trap 'rm -rf "$STAGE"; rmdir "$LOCK" 2>/dev/null' EXIT
 if ! rsync -a --filter="merge $FILTER" "$SOURCE/" "$STAGE/" >> "$LOG_FILE" 2>&1; then
     log "ERROR: rsync failed"
     notify "Shareable sync failed — rsync error. Check shareable-sync.log"

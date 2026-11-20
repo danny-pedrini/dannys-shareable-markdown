@@ -2,6 +2,8 @@
 
 This is the AI setup I use every day as a Staff PM at Hims & Hers, where I work on AI in clinical care: tools that help providers make treatment decisions and write to patients. It holds the Claude Code skills, reviewer agents, rules, and templates that turn my workspace into a copilot. It syncs from my private workspace every 15 minutes, so what you see is what I actually run, not a cleaned-up demo.
 
+I'm Danny Pedrini. You can find me on [LinkedIn](https://www.linkedin.com/in/danielpedrini/).
+
 ## Where to start
 
 If you're short on time, start with these five.
@@ -42,6 +44,6 @@ My private workspace is full of real colleagues and internal company work, so th
 - Links to internal docs, dashboards, and tickets are removed.
 - Files that hold internal material are replaced with a short note saying what they do.
 - Dollar figures in skill examples are altered, but they keep their ratios so the worked examples still add up.
-- Articles by other writers are linked from the [reading list](AI-Learning/Reading-List.md) instead of copied here.
+- Articles by other writers appear as short pointer files, each with a link to the original, in the folder where I filed them. The [reading list](AI-Learning/Reading-List.md) collects them in one place.
 
 The scrub is automated too. [shareable-sync.sh](.scripts/shareable-sync.sh) copies an allowlist of folders. Then [shareable-scrub.py](.scripts/shareable-scrub.py) rewrites the copy and checks it, and it refuses to push if a known name, internal link, or work email survives.
