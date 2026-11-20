@@ -1,0 +1,500 @@
+{
+  "claude_code": {
+    "sessions": 75,
+    "cost_usd_exact": 1818.66,
+    "cost_usd_reported": 1819,
+    "active_days": 17,
+    "cost_per_active_day": 106.98,
+    "window": "2026-09-21 through 2026-11-02 21:50 America/New_York",
+    "excluded_same_day": [
+      {
+        "session_id": "e70f0f05-34a9-4b27-86f1-127cae51bf40",
+        "started": "2026-11-02T21:51-05:00",
+        "cost_usd": 166.69
+      }
+    ],
+    "sessions_detail": [
+      {
+        "session_id": "b32ba2e8-e7f6-42da-b473-5cdc9730af34",
+        "started": "2026-09-21T07:44-04:00",
+        "cost_usd": 100.99
+      },
+      {
+        "session_id": "1ff1f1ac-aeca-49d1-b82b-c53cb1f24176",
+        "started": "2026-09-29T11:22-04:00",
+        "cost_usd": 60.45
+      },
+      {
+        "session_id": "70fac640-9668-4f52-b287-0e4209991529",
+        "started": "2026-09-29T13:50-04:00",
+        "cost_usd": 143.02
+      },
+      {
+        "session_id": "37b0aa3f-367e-4202-a0c1-4d3fc05758f2",
+        "started": "2026-10-06T16:55-04:00",
+        "cost_usd": 0.24
+      },
+      {
+        "session_id": "ced6a299-51f7-485b-a846-0a59e6bd5320",
+        "started": "2026-10-06T17:05-04:00",
+        "cost_usd": 0.29
+      },
+      {
+        "session_id": "db2c92c9-2622-4e45-979b-240a3954e264",
+        "started": "2026-10-06T19:43-04:00",
+        "cost_usd": 0.33
+      },
+      {
+        "session_id": "487c6f6b-04eb-42a1-8bd3-b0dfe3751915",
+        "started": "2026-10-06T19:44-04:00",
+        "cost_usd": 151.39
+      },
+      {
+        "session_id": "b7d3ae9a-e043-4617-8bcf-a951a9b11c71",
+        "started": "2026-10-07T08:51-04:00",
+        "cost_usd": 30.65
+      },
+      {
+        "session_id": "1596c5a6-c4f2-4c4d-a56a-51a6500577a8",
+        "started": "2026-10-07T13:11-04:00",
+        "cost_usd": 296.77
+      },
+      {
+        "session_id": "4e99a7b1-9c59-4b8a-972d-4d241c74b653",
+        "started": "2026-10-13T08:02-04:00",
+        "cost_usd": 2.11
+      },
+      {
+        "session_id": "6a6f5310-ce03-4b24-8fa9-ed155daebeaf",
+        "started": "2026-10-13T09:12-04:00",
+        "cost_usd": 0.27
+      },
+      {
+        "session_id": "07ab1a64-6369-4bb2-b525-c2cc58b08bbd",
+        "started": "2026-10-13T09:13-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "b1d4f7a7-cd9a-41f5-b750-c3c6e52e691f",
+        "started": "2026-10-13T09:17-04:00",
+        "cost_usd": 67.83
+      },
+      {
+        "session_id": "e492281d-05a7-46ce-973f-bdffa6321e51",
+        "started": "2026-10-13T11:53-04:00",
+        "cost_usd": 0.95
+      },
+      {
+        "session_id": "a23fb079-fb77-4789-90d7-d4d33a4e18dd",
+        "started": "2026-10-13T11:56-04:00",
+        "cost_usd": 1.49
+      },
+      {
+        "session_id": "05f962cf-f9a0-413f-9477-fe04fbfab446",
+        "started": "2026-10-13T12:21-04:00",
+        "cost_usd": 0.79
+      },
+      {
+        "session_id": "62e199c0-624e-48f6-92ad-6495c7d22ad4",
+        "started": "2026-10-13T16:42-04:00",
+        "cost_usd": 13.3
+      },
+      {
+        "session_id": "57fea835-0833-42f3-9250-46b0d4e2736c",
+        "started": "2026-10-13T19:39-04:00",
+        "cost_usd": 35.28
+      },
+      {
+        "session_id": "d9c6e73c-7368-4af0-9be1-fb537f9e3d9a",
+        "started": "2026-10-15T12:24-04:00",
+        "cost_usd": 0.76
+      },
+      {
+        "session_id": "f2c6a920-c822-408d-88fa-6d1794767456",
+        "started": "2026-10-16T12:00-04:00",
+        "cost_usd": 21.9
+      },
+      {
+        "session_id": "cd5fe521-320c-4d74-b927-951732d121f9",
+        "started": "2026-10-19T15:47-04:00",
+        "cost_usd": 16.18
+      },
+      {
+        "session_id": "9acfc201-1fc6-4fa0-8b58-5b831604a7fc",
+        "started": "2026-10-20T12:50-04:00",
+        "cost_usd": 11.22
+      },
+      {
+        "session_id": "d5cc33e2-b4f6-4951-af39-e3b8d72fe7c2",
+        "started": "2026-10-20T14:52-04:00",
+        "cost_usd": 14.34
+      },
+      {
+        "session_id": "e5657928-0107-403c-b8ec-4bd8693b0c14",
+        "started": "2026-10-20T16:57-04:00",
+        "cost_usd": 35.16
+      },
+      {
+        "session_id": "480500d7-80ee-4f5f-bffb-6a685f91322f",
+        "started": "2026-10-20T20:37-04:00",
+        "cost_usd": 61.41
+      },
+      {
+        "session_id": "f74a352d-17aa-4b78-82d4-4dafb3e1fe1b",
+        "started": "2026-10-21T06:48-04:00",
+        "cost_usd": 0.25
+      },
+      {
+        "session_id": "cf87409e-91eb-40b1-8fa1-cde66cbc4feb",
+        "started": "2026-10-21T06:48-04:00",
+        "cost_usd": 0.62
+      },
+      {
+        "session_id": "93a3e520-73b3-4f56-bc39-e51b7f7e9bd2",
+        "started": "2026-10-21T06:52-04:00",
+        "cost_usd": 86.02
+      },
+      {
+        "session_id": "6a7d3d70-7d5b-482c-ab12-42068d132a9d",
+        "started": "2026-10-21T07:05-04:00",
+        "cost_usd": 173.93
+      },
+      {
+        "session_id": "4d2708fd-ad49-492a-b113-f07d5063d601",
+        "started": "2026-10-21T09:22-04:00",
+        "cost_usd": 52.4
+      },
+      {
+        "session_id": "eb213abe-3392-4406-b52f-32735fb2ca70",
+        "started": "2026-10-21T10:13-04:00",
+        "cost_usd": 0.34
+      },
+      {
+        "session_id": "989e5689-b0f0-4818-afe8-a0b848e7bcf0",
+        "started": "2026-10-21T10:15-04:00",
+        "cost_usd": 0.21
+      },
+      {
+        "session_id": "45c3670c-a7d2-402b-a156-0d84048125b8",
+        "started": "2026-10-21T10:40-04:00",
+        "cost_usd": 0.19
+      },
+      {
+        "session_id": "4cd3204c-bc0d-458d-b24f-0cfb2c5de033",
+        "started": "2026-10-21T11:09-04:00",
+        "cost_usd": 1.49
+      },
+      {
+        "session_id": "b0ea0fc2-3173-444b-bc66-79f83e5edf6e",
+        "started": "2026-10-21T11:32-04:00",
+        "cost_usd": 0.23
+      },
+      {
+        "session_id": "36582e08-9041-46ea-a249-afca8cece8bb",
+        "started": "2026-10-21T15:19-04:00",
+        "cost_usd": 0.48
+      },
+      {
+        "session_id": "2763aa60-8fa7-451f-970b-e4d9a00525c1",
+        "started": "2026-10-21T20:48-04:00",
+        "cost_usd": 0.29
+      },
+      {
+        "session_id": "cf5250a3-985e-4893-b092-33a26dfaa576",
+        "started": "2026-10-26T11:32-04:00",
+        "cost_usd": 97.25
+      },
+      {
+        "session_id": "6410cf4e-e2e7-45fa-9bc3-8d8af2356aa4",
+        "started": "2026-10-27T11:03-04:00",
+        "cost_usd": 13.03
+      },
+      {
+        "session_id": "593f27a3-1f78-4250-ac27-68a4e848fe81",
+        "started": "2026-10-27T11:39-04:00",
+        "cost_usd": 9.45
+      },
+      {
+        "session_id": "a1acefd5-ada9-46cb-a7be-0ec5c9ec1984",
+        "started": "2026-10-27T18:42-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "5f3685f9-71d5-49aa-9431-4df028cfc22b",
+        "started": "2026-10-27T18:43-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "67408403-8b99-45b8-9027-903d6629f402",
+        "started": "2026-10-27T18:44-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "080854c4-cd9d-4c06-95d2-0b12c21b1bb3",
+        "started": "2026-10-27T18:45-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "45ba6a62-f567-47c5-bb03-7164c362c60e",
+        "started": "2026-10-27T18:45-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "6dc623e1-269b-4fe5-ad9b-ae8ced66a7fa",
+        "started": "2026-10-27T18:46-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "b0b291a4-3729-4c28-b68b-710783e6178e",
+        "started": "2026-10-27T19:23-04:00",
+        "cost_usd": 0.2
+      },
+      {
+        "session_id": "91c383c2-be96-4adb-bda6-160bc9c04276",
+        "started": "2026-10-27T19:30-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "84c071bd-fa57-4307-91d5-1d7b2def5534",
+        "started": "2026-10-27T20:53-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "94d18819-6da6-45b4-b4f9-b6f4970cdbef",
+        "started": "2026-10-27T20:55-04:00",
+        "cost_usd": 0.22
+      },
+      {
+        "session_id": "0ce68782-1772-47a4-bad4-d00dddf7cdcd",
+        "started": "2026-10-27T21:09-04:00",
+        "cost_usd": 62.12
+      },
+      {
+        "session_id": "8bf3a6b5-e2b2-4dd0-90de-56efef7e3cba",
+        "started": "2026-10-28T19:49-04:00",
+        "cost_usd": 0.26
+      },
+      {
+        "session_id": "69239f47-bd6f-4519-9e8f-cc3837d7e367",
+        "started": "2026-10-28T19:50-04:00",
+        "cost_usd": 7.02
+      },
+      {
+        "session_id": "c20ea2bd-759d-4edd-a451-3b988dd27884",
+        "started": "2026-10-29T12:09-04:00",
+        "cost_usd": 0.65
+      },
+      {
+        "session_id": "46f6a498-7134-432e-bca4-5f25271fcfb2",
+        "started": "2026-10-29T18:47-04:00",
+        "cost_usd": 0.14
+      },
+      {
+        "session_id": "0a3219a0-6931-4e90-9b1c-9f9e7ac32dfe",
+        "started": "2026-10-29T19:28-04:00",
+        "cost_usd": 0.36
+      },
+      {
+        "session_id": "e2dc5d24-65b9-458e-a4b4-de64aad3a278",
+        "started": "2026-10-29T20:25-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "2bdd3812-5083-4caf-bc5a-71b64a81cbd8",
+        "started": "2026-10-29T20:26-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "2adda6ef-a420-4495-85c0-2a1943f9b5f8",
+        "started": "2026-10-29T20:37-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "69e91cb1-87d8-4593-9da8-c2a3151491dc",
+        "started": "2026-10-29T20:46-04:00",
+        "cost_usd": 1.45
+      },
+      {
+        "session_id": "520c96e7-26d8-4e08-910f-ab80e72693b1",
+        "started": "2026-10-29T20:51-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "3fa7b3cd-8943-474b-b76a-80e9cf2bcce0",
+        "started": "2026-10-29T20:55-04:00",
+        "cost_usd": 1.41
+      },
+      {
+        "session_id": "caa112b3-0d88-4614-999a-8c9818079e4a",
+        "started": "2026-10-30T23:18-04:00",
+        "cost_usd": 0.22
+      },
+      {
+        "session_id": "54bd9f0d-db3e-4b88-ba9a-631b3ce964ba",
+        "started": "2026-10-30T23:19-04:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "f4e4044b-cf9e-4221-9160-9de15cb45e10",
+        "started": "2026-10-30T23:19-04:00",
+        "cost_usd": 9.89
+      },
+      {
+        "session_id": "2c925ce8-3a51-49ce-9974-8671108e4a4a",
+        "started": "2026-10-30T23:21-04:00",
+        "cost_usd": 86.92
+      },
+      {
+        "session_id": "c67c847e-0d98-4374-97eb-4c5504759af8",
+        "started": "2026-10-30T23:49-04:00",
+        "cost_usd": 1.06
+      },
+      {
+        "session_id": "9be28e99-53a9-49c5-be66-9858d9753c15",
+        "started": "2026-10-31T01:54-04:00",
+        "cost_usd": 29.26
+      },
+      {
+        "session_id": "a25cd721-1515-4f7e-9198-6cb23ff2b461",
+        "started": "2026-10-31T12:23-04:00",
+        "cost_usd": 1.4
+      },
+      {
+        "session_id": "c707221f-a407-4966-8339-e197f9c62625",
+        "started": "2026-11-02T09:53-05:00",
+        "cost_usd": 36.6
+      },
+      {
+        "session_id": "0b7c6355-3013-461c-87b6-51f2fd85c829",
+        "started": "2026-11-02T10:17-05:00",
+        "cost_usd": 4.83
+      },
+      {
+        "session_id": "a977e688-e9b9-422d-9da4-29f195c40d5e",
+        "started": "2026-11-02T10:18-05:00",
+        "cost_usd": 70.64
+      },
+      {
+        "session_id": "4fcb4562-1168-441d-bb02-a15005d84ffb",
+        "started": "2026-11-02T16:31-05:00",
+        "cost_usd": 0.36
+      },
+      {
+        "session_id": "64a86f6e-472c-45a3-9bae-d7b31f2c20e3",
+        "started": "2026-11-02T16:35-05:00",
+        "cost_usd": 0.0
+      },
+      {
+        "session_id": "fba5ecd2-89bd-4a36-b90c-5d90ceef77ef",
+        "started": "2026-11-02T16:44-05:00",
+        "cost_usd": 0.33
+      }
+    ]
+  },
+  "cursor_monthly": {
+    "2025-11": {
+      "chats": 41,
+      "at_or_over_150k": 0,
+      "median_context_tokens": 50710,
+      "null_share": 0.2683,
+      "drafts_excluded": 2
+    },
+    "2025-12": {
+      "chats": 252,
+      "at_or_over_150k": 18,
+      "median_context_tokens": 76312,
+      "null_share": 0.2937,
+      "drafts_excluded": 1
+    },
+    "2026-01": {
+      "chats": 270,
+      "at_or_over_150k": 13,
+      "median_context_tokens": 58747,
+      "null_share": 0.263,
+      "drafts_excluded": 3
+    },
+    "2026-02": {
+      "chats": 167,
+      "at_or_over_150k": 10,
+      "median_context_tokens": 61808,
+      "null_share": 0.1497,
+      "drafts_excluded": 2
+    },
+    "2026-03": {
+      "chats": 427,
+      "at_or_over_150k": 27,
+      "median_context_tokens": 76036,
+      "null_share": 0.1452,
+      "drafts_excluded": 6
+    },
+    "2026-04": {
+      "chats": 190,
+      "at_or_over_150k": 12,
+      "median_context_tokens": 70846,
+      "null_share": 0.1789,
+      "drafts_excluded": 4
+    },
+    "2026-05": {
+      "chats": 53,
+      "at_or_over_150k": 3,
+      "median_context_tokens": 43008,
+      "null_share": 0.6604,
+      "drafts_excluded": 1
+    },
+    "2026-06": {
+      "chats": 150,
+      "at_or_over_150k": 7,
+      "median_context_tokens": 58404,
+      "null_share": 0.1533,
+      "drafts_excluded": 0
+    },
+    "2026-07": {
+      "chats": 102,
+      "at_or_over_150k": 16,
+      "median_context_tokens": 86221,
+      "null_share": 0.1667,
+      "drafts_excluded": 1
+    },
+    "2026-08": {
+      "chats": 320,
+      "at_or_over_150k": 21,
+      "median_context_tokens": 107066,
+      "null_share": 0.8187,
+      "drafts_excluded": 1
+    },
+    "2026-09": {
+      "chats": 287,
+      "at_or_over_150k": 41,
+      "median_context_tokens": 124058,
+      "null_share": 0.5958,
+      "drafts_excluded": 4
+    },
+    "2026-10": {
+      "chats": 233,
+      "at_or_over_150k": 46,
+      "median_context_tokens": 101482,
+      "null_share": 0.1159,
+      "drafts_excluded": 4
+    },
+    "2026-11": {
+      "chats": 60,
+      "at_or_over_150k": 21,
+      "median_context_tokens": 133500,
+      "null_share": 0.1833,
+      "drafts_excluded": 1
+    }
+  },
+  "plan_recount": {
+    "2026-09": {
+      "chats": 287,
+      "at_or_over_150k": 38,
+      "null_share": 0.39
+    },
+    "2026-10": {
+      "chats": 249,
+      "at_or_over_150k": 48,
+      "null_share": 0.11
+    },
+    "note": "Recount from the plan. Live counts are cursor_monthly. September's chat count matches 287 with drafts excluded. September's at-or-over-150k count is 41 against the plan's 38. October's chat count is 233 against 249. September's null share is about 0.60 against 0.39. October's null share is 0.12 against 0.11."
+  }
+}

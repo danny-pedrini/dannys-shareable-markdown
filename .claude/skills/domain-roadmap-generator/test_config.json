@@ -1,0 +1,101 @@
+{
+  "capacity": {
+    "engineers": 6,
+    "utilization": 0.8,
+    "start_date": "2026-07-01",
+    "end_date": "2026-12-31"
+  },
+  "initiatives": [
+    {
+      "rank": 1,
+      "name": "Polybagger Printer Integration",
+      "eng_weeks": 4,
+      "goal": "Cost-to-Serve",
+      "annual_impact": "$154K",
+      "dependencies": [],
+      "team_size": 2
+    },
+    {
+      "rank": 2,
+      "name": "Auto-Weight at Pack",
+      "eng_weeks": 2,
+      "goal": "Cost-to-Serve",
+      "annual_impact": "$132K",
+      "dependencies": [],
+      "team_size": 2
+    },
+    {
+      "rank": 3,
+      "name": "Building Health Dashboard",
+      "eng_weeks": 22,
+      "goal": "Cost-to-Serve",
+      "annual_impact": "$1.39M",
+      "dependencies": [],
+      "team_size": 4
+    },
+    {
+      "rank": 4,
+      "name": "Pack-as-Pull Signals",
+      "eng_weeks": 20,
+      "goal": "Cost-to-Serve",
+      "annual_impact": null,
+      "dependencies": ["Building Health Dashboard"],
+      "team_size": 4
+    },
+    {
+      "rank": 5,
+      "name": "Auto-Divert + Auto-Stage (Tompkins AZ-3)",
+      "eng_weeks": 10,
+      "goal": "Cost-to-Serve",
+      "annual_impact": "$98K",
+      "dependencies": [],
+      "team_size": 3
+    },
+    {
+      "rank": 6,
+      "name": "Scan Enforcement at Pack",
+      "eng_weeks": 7,
+      "goal": "Compliance & Quality",
+      "annual_impact": null,
+      "dependencies": [],
+      "external": true,
+      "fixed_delivery": "Q3 2026"
+    },
+    {
+      "rank": 7,
+      "name": "Atomic Containerization",
+      "eng_weeks": 12,
+      "goal": "Compliance & Quality",
+      "annual_impact": null,
+      "dependencies": [],
+      "team_size": 3
+    },
+    {
+      "rank": 8,
+      "name": "POD & Signature Proof",
+      "eng_weeks": 5,
+      "goal": "Compliance & Quality",
+      "annual_impact": null,
+      "dependencies": [],
+      "team_size": 2
+    },
+    {
+      "rank": 9,
+      "name": "Conveyance + Slam-Line Automation Platform",
+      "eng_weeks": 32,
+      "goal": "Cost-to-Serve",
+      "annual_impact": "$135K",
+      "dependencies": [],
+      "team_size": 4
+    },
+    {
+      "rank": 10,
+      "name": "Automated Tompkins Destination Selection",
+      "eng_weeks": 26,
+      "goal": "Cost-to-Serve",
+      "annual_impact": "$30K",
+      "dependencies": ["Atomic Containerization"],
+      "team_size": 3
+    }
+  ]
+}

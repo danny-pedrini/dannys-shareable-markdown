@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lennyhub-streamlit",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "Archive/lennyhub-rag-main/streamlit_app.py"],
+      "port": 8501
+    },
+    {
+      "name": "lennyhub-graph-viewer",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["Archive/lennyhub-rag-main/serve_graph.py"],
+      "port": 8000
+    },
+    {
+      "name": "lennyhub-qdrant",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["Archive/lennyhub-rag-main/start_qdrant.sh"],
+      "port": 6333
+    }
+  ]
+}

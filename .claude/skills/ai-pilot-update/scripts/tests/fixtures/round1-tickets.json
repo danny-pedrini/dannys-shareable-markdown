@@ -1,0 +1,398 @@
+{
+ "QCARE-262": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-264": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-267": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-269": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-271": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-273": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-275": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-277": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": "efficiency",
+  "reason": "Danny relabeled safety to efficiency after filing (handoff section 4)"
+ },
+ "QCARE-279": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-281": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-283": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-285": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-287": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-289": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-291": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-293": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-294": {
+  "priority": "P0 - Unbreak NOW",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-263": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-265": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-266": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-268": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-270": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-272": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-274": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-276": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-278": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-280": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-282": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-284": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-286": {
+  "priority": "P1 - Feature Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "safety"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": false,
+  "category": null,
+  "reason": "Danny dropped it after filing (handoff section 4)"
+ },
+ "QCARE-288": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-290": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ },
+ "QCARE-292": {
+  "priority": "P2 - Non-Blocker",
+  "labels": [
+   "Provider-draft-model",
+   "pilot-provider-feedback",
+   "efficiency"
+  ],
+  "status": "(fixture: filing ledger)",
+  "counted": true,
+  "category": null,
+  "reason": ""
+ }
+}

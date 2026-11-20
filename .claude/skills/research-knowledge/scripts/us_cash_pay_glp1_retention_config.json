@@ -1,0 +1,107 @@
+{
+  "topic_name": "US Cash-Pay GLP-1 Retention and Persistence for Weight Loss",
+  "output_folder": "us_cash_pay_glp1_retention_knowledge",
+  "search_domains": {
+    "Cash-Pay and Self-Pay Persistence Rates": [
+      "cash pay GLP-1 retention persistence weight loss US 2024 2025",
+      "self-pay semaglutide tirzepatide persistence 6 month 12 month",
+      "out of pocket GLP-1 adherence discontinuation rate United States",
+      "cash-pay Wegovy Zepbound persistence pharmacy fill gap study",
+      "self-pay weight loss medication continuation rates months"
+    ],
+    "DTC Telehealth Company-Reported Retention": [
+      "Hims Hers GLP-1 retention churn subscription weight loss",
+      "Ro Body GLP-1 retention persistence churn rate",
+      "Noom Med GLP-1 retention adherence continuation",
+      "Found Weight Care GLP-1 retention persistence",
+      "telehealth GLP-1 subscription churn rate cash pay DTC"
+    ],
+    "Compounded Semaglutide Tirzepatide Persistence": [
+      "compounded semaglutide retention persistence cash pay",
+      "compounded tirzepatide discontinuation rate weight loss",
+      "compounding pharmacy GLP-1 adherence continuation rates",
+      "compounded vs brand Wegovy Zepbound persistence comparison",
+      "503A 503B compounded GLP-1 patient retention"
+    ],
+    "LillyDirect and NovoCare Cash Programs": [
+      "LillyDirect Zepbound cash pay persistence retention adherence",
+      "NovoCare Wegovy self-pay savings card persistence continuation",
+      "LillyDirect NovoCare GLP-1 fill rates discontinuation",
+      "manufacturer direct cash pay GLP-1 adherence US",
+      "Zepbound vials cash pay continuation rate months"
+    ],
+    "Subscription Churn vs Medication Persistence Definitions": [
+      "GLP-1 subscription churn vs medication persistence definition",
+      "weight loss telehealth membership retention vs fill adherence",
+      "GLP-1 therapy still active denominator starters check-in completed",
+      "pharmacy fill gap days supply GLP-1 persistence methodology",
+      "cash pay GLP-1 1 month 6 month 12 month persistence rates"
+    ],
+    "Market Landscape Cash-Pay Competitors": [
+      "US cash pay GLP-1 market Hims Ro Noom Found LillyDirect retention",
+      "direct to consumer weight loss GLP-1 persistence comparison",
+      "self-pay compounded GLP-1 patient stay on therapy how long",
+      "cash-pay GLP-1 real world evidence discontinuation US only",
+      "weight management cash pay medication adherence real world data"
+    ]
+  },
+  "relevance_keywords": {
+    "high": [
+      "cash pay",
+      "cash-pay",
+      "self-pay",
+      "self pay",
+      "out of pocket",
+      "out-of-pocket",
+      "compounded",
+      "compounding",
+      "DTC",
+      "direct-to-consumer",
+      "persistence",
+      "retention",
+      "adherence",
+      "discontinuation",
+      "churn",
+      "continuation",
+      "GLP-1",
+      "semaglutide",
+      "tirzepatide",
+      "Wegovy",
+      "Zepbound",
+      "Hims",
+      "Hers",
+      "LillyDirect",
+      "NovoCare",
+      "subscription",
+      "fill gap",
+      "days supply"
+    ],
+    "medium": [
+      "weight loss",
+      "obesity",
+      "telehealth",
+      "pharmacy",
+      "Ro Body",
+      "Noom",
+      "Found",
+      "6-month",
+      "12-month",
+      "starter",
+      "denominator",
+      "real world",
+      "RWE",
+      "persistence rate",
+      "still on"
+    ],
+    "low": [
+      "medication",
+      "therapy",
+      "patient",
+      "month",
+      "rate",
+      "study",
+      "cohort"
+    ]
+  },
+  "results_per_query": 8
+}

@@ -1,0 +1,118 @@
+{
+  "topic_name": "EMR AI features that cut provider labor",
+  "output_folder": "emr_ai_provider_labor_features_knowledge",
+  "results_per_query": 8,
+  "search_domains": {
+    "Ambient documentation time savings": [
+      "ambient AI medical scribe physician documentation time saved study 2025 2026",
+      "Abridge Nuance DAX Copilot minutes saved per encounter pajama time",
+      "ambient clinical documentation physician hours saved per week evidence",
+      "AI scribe EHR burnout documentation burden reduction KLAS"
+    ],
+    "Pre-visit chart summary": [
+      "AI pre-visit chart summary clinician preparation time EHR",
+      "AI patient history labs summary visit prep not documented guardrails",
+      "MidiPal Midi Health AI clinical interface chart summary time saved",
+      "clinical chart summarization AI hallucination accuracy physician workflow"
+    ],
+    "Inbox and message drafting": [
+      "AI draft patient portal messages EHR in-basket time saved",
+      "Epic in-basket generative AI reply drafts physician time study",
+      "asynchronous patient messaging AI draft clinician efficiency telehealth",
+      "AI inbox triage patient messages burnout reduction primary care"
+    ],
+    "In-visit workflow consolidation": [
+      "EMR AI orders prescribing charting follow-up one screen clinician time",
+      "AI medication refill protocol automation provider time saved telehealth",
+      "clinical decision support AI time to treatment decision physician efficiency",
+      "EHR tool consolidation clinician cognitive load visit workflow AI"
+    ],
+    "Measured labor and cost impact": [
+      "physician time spent EHR documentation minutes per patient time motion study",
+      "AI EHR features return on investment labor cost reduction physician",
+      "after hours EHR time pajama time reduction AI intervention results",
+      "healthcare AI administrative burden physician FTE savings benchmark"
+    ],
+    "Failure modes and low ROI": [
+      "AI scribe fails emergency department high acuity documentation burden",
+      "clinical AI summarization missing data not documented failure modes",
+      "ambient documentation limited benefit which specialties low ROI",
+      "EHR AI feature adoption failure physician trust override time cost"
+    ],
+    "Wider labor-saving EMR features": [
+      "prior authorization automation EHR physician staff time saved study",
+      "EHR order sets smart sets clinician time clicks saved",
+      "digital patient intake questionnaire pre-populates chart clinician time saved",
+      "computer-assisted coding CDI documentation time saved physician study",
+      "patient self-scheduling AI call center deflection staff time saved",
+      "EHR clinician task queue asynchronous visits time saved",
+      "ambient AI documentation asynchronous telehealth visit time saved",
+      "medical assistant nurse standing order protocol delegation inbox time saved"
+    ]
+  },
+  "relevance_keywords": {
+    "high": [
+      "time saved",
+      "minutes",
+      "hours saved",
+      "documentation time",
+      "pajama time",
+      "after-hours",
+      "after hours",
+      "in-basket",
+      "inbox",
+      "ambient",
+      "scribe",
+      "chart summary",
+      "pre-visit",
+      "burnout",
+      "labor",
+      "efficiency",
+      "physician",
+      "clinician",
+      "provider",
+      "EHR",
+      "EMR",
+      "AI"
+    ],
+    "medium": [
+      "Abridge",
+      "Nuance",
+      "DAX",
+      "Epic",
+      "athenahealth",
+      "Midi",
+      "MidiPal",
+      "Nabla",
+      "Suki",
+      "Ambience",
+      "draft",
+      "message",
+      "prescribing",
+      "refill",
+      "orders",
+      "telehealth",
+      "ROI",
+      "FTE",
+      "prior authorization",
+      "order set",
+      "intake",
+      "coding",
+      "CDI",
+      "scheduling",
+      "task queue",
+      "standing order",
+      "medical assistant",
+      "nurse"
+    ],
+    "low": [
+      "workflow",
+      "automation",
+      "productivity",
+      "healthcare",
+      "adoption",
+      "accuracy",
+      "hallucination"
+    ]
+  }
+}

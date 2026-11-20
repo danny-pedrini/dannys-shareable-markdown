@@ -1,0 +1,15 @@
+{
+  "enabledPlugins": {
+    "vercel@claude-plugins-official": false
+  },
+  "permissions": {
+    "allow": [
+      "Bash(pbpaste)",
+      "Bash(curl -s -o /dev/null *)",
+      "Bash(npx netlify status)",
+      "Bash(npx --no-install tsc *)",
+      "Bash(npx --no-install eslint *)",
+      "mcp__github__get_me"
+    ]
+  }
+}

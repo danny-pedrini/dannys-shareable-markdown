@@ -1,0 +1,49 @@
+{
+  "skill_name": "make-deck",
+  "evals": [
+    {
+      "id": 1,
+      "name": "exec-status-update",
+      "prompt": "Make me a deck for tomorrow's VP Product 1:1. Status update on PHD migration. We're at 83% complete, blocker is MedMatch dep on visit_id assumption, planning to ship Milestone 4 by end of May, Milestone 5 blocked on Care EM capacity. 5-8 slides.",
+      "expected_output": "Native Google Slides deck. Slide 1 cover with deck title and subtitle 'For VP Product, [date]'. Slide 2 exec_summary with 3 cards (Migration health / Blocker / Capacity ask). Subsequent slides walk through milestones with at least one visual template. Final slide is a forward-looking ask. QA pass should be SHIP or SHIP_WITH_WARNINGS. Outline saved to outputs/.",
+      "files": [],
+      "assertions": [
+        {"text": "deck-url-returned", "description": "Final output includes a docs.google.com/presentation URL"},
+        {"text": "slide-2-is-exec-summary", "description": "Slide 2 uses the exec_summary template"},
+        {"text": "visual-variety", "description": "Outline includes at least 2 non-bullets template types"},
+        {"text": "no-em-dashes", "description": "No em-dash characters in any slide text or speaker notes"},
+        {"text": "state-file-written", "description": "An outputs/YYYY-MM-DD-*.json file exists for this deck"},
+        {"text": "qa-pass", "description": "QA verdict is SHIP or SHIP_WITH_WARNINGS"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "complex-strategic-deck",
+      "prompt": "Build slides explaining the TPA cutover plan. Two systems exist with the same TPA acronym (Titration Protocol Adjustment AND Treatment Plan Authority service). Audience is VP Eng plus SVP Eng. Need to cover: state machine (6 states, 11 transitions), dependencies on MedMatch and EMR layer, May 12 ClinOps cutover, June 1 provider-facing launch, 207k Strive WL re-Rx by July 17, rollback procedure undefined risk. 12-15 slides.",
+      "expected_output": "Medium-length deck with clear story arc. Cover, exec_summary, agenda (because >8 slides), section dividers between phases. moving_blueprint OR section_divider per spine rules. Visual templates for state machine and dependencies (flow_steps or three_card). Speaker notes on risk slide. VP Eng/SVP Eng audience tuning.",
+      "files": [],
+      "assertions": [
+        {"text": "deck-url-returned", "description": "Final output includes a docs.google.com/presentation URL"},
+        {"text": "has-agenda", "description": "Agenda slide exists at position 3"},
+        {"text": "tpa-disambiguation", "description": "Deck text disambiguates the two TPA meanings on first mention"},
+        {"text": "audience-tuning", "description": "Speaker notes or content reflect VP Eng/SVP Eng framing"},
+        {"text": "non-bullets-majority", "description": "More than half of content slides use non-bullets templates"},
+        {"text": "qa-pass", "description": "QA verdict is SHIP or SHIP_WITH_WARNINGS"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "short-tactical-deck",
+      "prompt": "Quick 5-slide deck for our team standup tomorrow about the WL Membership re-Rx flow. Background: 207k Strive customers need re-Rx by July 17. Today's status: blocked on MedMatch envelope size (7,323 byte limit hit). Need: temp workaround approved + perm fix scoped. Just my team, internal, fast.",
+      "expected_output": "Short deck (≤8 slides). Visual variety even at short length. No agenda (too short). Internal-team tone (informal). Final slide is action-oriented.",
+      "files": [],
+      "assertions": [
+        {"text": "deck-url-returned", "description": "Final output includes a docs.google.com/presentation URL"},
+        {"text": "short-length", "description": "Slide count between 4 and 8"},
+        {"text": "no-agenda", "description": "No agenda slide"},
+        {"text": "ends-with-ask", "description": "Last content slide is forward-looking"},
+        {"text": "qa-pass", "description": "QA verdict is SHIP or SHIP_WITH_WARNINGS"}
+      ]
+    }
+  ]
+}
