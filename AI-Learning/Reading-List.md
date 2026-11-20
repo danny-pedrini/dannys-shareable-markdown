@@ -16,7 +16,7 @@ My own notes built on these sources are in this folder: the [curriculum](Curricu
 
 - [AI Agents for Product Managers](https://www.news.aakashg.com/p/ai-agents-pms), Aakash Gupta and Vikash Rungta
 - [OpenClaw: the complete PM guide](https://www.news.aakashg.com/p/openclaw-guide), Aakash Gupta
-- [PM's Guide to Karpathy's Autoresearch](https://www.news.aakashg.com/p/karpathy-autoresearch), Aakash Gupta
+- [PM's Guide to Karpathy's Autoresearch](https://www.news.aakashg.com/p/autoresearch-guide-for-pms), Aakash Gupta
 - [Ralph Wiggum for Claude Code](https://www.news.aakashg.com/p/ralph-wiggum-for-claude-code), Aakash Gupta
 - [Loop Engineering for Beginners](https://www.youtube.com/watch?v=JoXbk2fm7jM), How I AI
 
