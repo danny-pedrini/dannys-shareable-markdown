@@ -66,6 +66,11 @@
 - /AI-Reference-Materials/AI-Product-Craft/AI-Product-Sense-Ultimate-Guide-for-PMs.md
 - /AI-Reference-Materials/AI-Product-Craft/AI-Product-Discovery-Masterclass.md
 
+# Anthropic's skill-authoring page: the newer copy (fetched 2026-06-01) lives in
+# anthropic-skill-best-practices/ and publishes. This April copy is a duplicate, so only the
+# private workspace keeps it.
+- /AI-Reference-Materials/Claude-Code-and-Skills/Anthropic-Skills-Authoring-Best-Practices.md
+
 # What publishes: root-level files plus these four folders. Nothing else.
 + /AI-Reference-Materials/
 + /.claude/

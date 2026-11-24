@@ -65,7 +65,7 @@ Workspace structure, CLAUDE.md architecture, memory, and passive context capture
 
 ### Workspace to-dos (yours)
 
-- 📌 **Update AI-Learning folder with Anthropic content.**
+- 📌 **Update AI-Reference-Materials folder with Anthropic content.**
 - 📌 **Have CLAUDE.md date-stamp every file after edit** — and propose keeping context files current.
 
 
@@ -76,7 +76,7 @@ Writing skills well, the meta-tooling for improving them, and the shelf of ready
 
 ### Authoring
 
-- 🔗 **Skill authoring best practices (Anthropic official)** — [platform docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) (local copy: `AI-Reference-Materials/Claude-Code-and-Skills/Anthropic-Skills-Authoring-Best-Practices.md`) — "the context window is a public good": SKILL.md under 500 lines, references one level deep; match degrees of freedom to task fragility (prose → pseudocode → exact scripts); build ≥3 evals *before* writing docs; Claude-A-authors/Claude-B-tests loop; 22-item closing checklist runnable against this workspace's skills.
+- 🔗 **Skill authoring best practices (Anthropic official)** — [platform docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) (local copy: `AI-Reference-Materials/Claude-Code-and-Skills/anthropic-skill-best-practices/02-skill-authoring-best-practices.md`) — "the context window is a public good": SKILL.md under 500 lines, references one level deep; match degrees of freedom to task fragility (prose → pseudocode → exact scripts); build ≥3 evals *before* writing docs; Claude-A-authors/Claude-B-tests loop; 22-item closing checklist runnable against this workspace's skills.
 - 🔗 **The Complete Guide to Building Skills for Claude** — [Anthropic official PDF, 33 pp.](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) — the *what-skills-are* companion to the best-practices doc above: fundamentals → planning → testing → distribution → patterns; five proven patterns (sequential orchestration, multi-MCP coordination, iterative refinement with quality gates, context-aware tool selection, domain-intelligence embedding).
 - 🔗 **Improving frontend design through skills (Anthropic)** — [blog](https://claude.com/blog/improving-frontend-design-through-skills) + [SKILL.md](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md) — "distributional convergence" explains AI slop: safe choices (Inter, purple gradients) dominate training data, so a ~400-token skill steering typography/color/motion fixes it; prompt at the right altitude — neither hardcoded hex nor vague vibes. Transferable pattern: give Claude taste via just-in-time skill (see also §8's Protodash "blurple slop" case).
 - 🔗 **Skill activation reliability: 20% → 84% via forced-eval hook (Scott Spence)** — [article](https://scottspence.com/posts/how-to-make-claude-code-skills-activate-reliably) + [sandboxed-evals methodology](https://scottspence.com/posts/measuring-claude-code-skill-activation-with-sandboxed-evals) — measured, not anecdotal: simple "use skills when relevant" instruction activates ~20% of the time (a coin flip), so use slash commands for must-fire skills; a forced-eval hook (Claude states YES/NO per skill before acting) hits 84%, an LLM-eval hook 80% — the commitment mechanism is the load-bearing part. Replaces the pruned "10 rules" backlog item — this is the primary source behind its numbers.
