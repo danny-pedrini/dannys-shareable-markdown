@@ -834,7 +834,7 @@ Note: whether a later draft or revision honors the snapshot is E10's, E39's, or 
 - Fail: Danny said "adopt 2 and 5, defer 7"; gate-2.md records finding 7 as declined.
 - Fail: Danny's intake answer named a $0.4M sized impact; the intake transcript records the answer as "see sizing doc."
 
-**Source:** `AI-Learning/Claude-Code-and-Skills/Token-Spend/skill-plans/prd-generator.md` change 1: a fresh session resumes from the snapshot, so a modification left out of it is lost
+**Source:** `AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/skill-plans/prd-generator.md` change 1: a fresh session resumes from the snapshot, so a modification left out of it is lost
 **Added:** 2026-11-06
 
 ---
@@ -856,7 +856,7 @@ Logic: `scripts/qa_round.py verify` parses each report's table rows and compares
 - Pass: The phase D Scope-Content report lists E04, E23, E24, E26, E42, E09, E11, E31, E34, E35, E41, and E47, once each.
 - Fail: The phase P Scope-Content report has no E22 row.
 
-**Source:** `AI-Learning/Claude-Code-and-Skills/Token-Spend/skill-plans/prd-generator.md` change 3: judges read per-group brief files, so a dropped eval would not surface on its own
+**Source:** `AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/skill-plans/prd-generator.md` change 3: judges read per-group brief files, so a dropped eval would not surface on its own
 **Added:** 2026-11-06
 
 ---
@@ -878,7 +878,7 @@ Logic: `scripts/qa_round.py verify` checks (1) a report exists for every group t
 - Pass: Fidelity, Scope-Content, and Mechanical reports all exist for D round 2, and the PRD's checksum matches the one recorded before the round.
 - Fail: The PRD's checksum changed between `start` and `verify`, so a QA agent edited it.
 
-**Source:** `AI-Learning/Claude-Code-and-Skills/Token-Spend/skill-plans/prd-generator.md` change 6: QA agents now write their own report files, so nothing else guards report integrity
+**Source:** `AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/skill-plans/prd-generator.md` change 6: QA agents now write their own report files, so nothing else guards report integrity
 **Added:** 2026-11-06
 
 ---

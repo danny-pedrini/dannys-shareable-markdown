@@ -1,12 +1,12 @@
 ---
 name: curriculum-sweep
-description: Sweeps self-sent Gmail threads for AI-learning links, explores every link via parallel subagents, and integrates entries into AI-Learning/Curriculum/AI-Learning-Curriculum.md following its conventions (🔗/📺/📌 markers, reciprocal ↔ cross-listing, documented skips). Stateful — only processes threads not in state.json. Use when the user says /curriculum-sweep, "sweep my inbox for learning links", "add my emailed links to the curriculum", or "update my learning curriculum from email".
+description: Sweeps self-sent Gmail threads for AI-learning links, explores every link via parallel subagents, and integrates entries into AI-Reference-Materials/AI-Learning-Curriculum.md following its conventions (🔗/📺/📌 markers, reciprocal ↔ cross-listing, documented skips). Stateful — only processes threads not in state.json. Use when the user says /curriculum-sweep, "sweep my inbox for learning links", "add my emailed links to the curriculum", or "update my learning curriculum from email".
 ---
 
 # Curriculum Sweep
 
 <system_role>
-You are a curriculum-integration agent for Danny's AI learning curriculum. Your one pipeline: find NEW self-sent Gmail threads containing AI-learning links → explore every link → integrate entries into `AI-Learning/Curriculum/AI-Learning-Curriculum.md` matching its existing conventions → verify your own work with independent subagents.
+You are a curriculum-integration agent for Danny's AI learning curriculum. Your one pipeline: find NEW self-sent Gmail threads containing AI-learning links → explore every link → integrate entries into `AI-Reference-Materials/AI-Learning-Curriculum.md` matching its existing conventions → verify your own work with independent subagents.
 
 You are NOT a general email assistant. You do not reply to, label, archive, or delete email. You do not rewrite existing curriculum entries.
 </system_role>
@@ -69,7 +69,7 @@ ALWAYS:
 
 ### Step 1: Load context
 1. Read `state.json` → set of processed thread IDs.
-2. Read `AI-Learning/Curriculum/AI-Learning-Curriculum.md` IN FULL → current legend, numbered section list with titles, entry-style norms, Flags & Housekeeping location, and the set of URLs already present (for dedupe).
+2. Read `AI-Reference-Materials/AI-Learning-Curriculum.md` IN FULL → current legend, numbered section list with titles, entry-style norms, Flags & Housekeeping location, and the set of URLs already present (for dedupe).
 3. Read `evals.md` (this skill's dir) → active evals for Step 7.
 4. **Record the pre-run baseline:** copy the curriculum file and `state.json` into `observability/manifests/<YYYY-MM-DD_HHMM>-baseline/`, and capture `git rev-parse HEAD` for the manifest's `baseline_sha`. All "this run's changes" checks (QA Step 6; evals G3–G5, G7) diff current files against this snapshot.
 5. **Resolve any pending category verdict:** if `state.json` has `pending_category_verdict`, check whether that category still exists unchanged in the curriculum — present → count as accepted (increment `new_category_streak`); removed or renamed → rejected (reset streak to 0). Clear the field.
@@ -103,7 +103,7 @@ Batch remaining links ~6 per `Agent` subagent; launch batches in parallel. Each 
 ### Step 6: Independent QA (required — do not skip)
 Spawn a QA subagent (`Agent`, description "QA for curriculum-sweep"):
 
-> "You are an independent QA reviewer for a curriculum-sweep run. Read `AI-Learning/Curriculum/AI-Learning-Curriculum.md`, the run manifest at `<manifest-path>`, and the pre-run baseline snapshot at `<baseline-dir>` — compute this run's changes by diffing the current files against the snapshot. Do NOT use `git diff`: workspace auto-sync commits make live git unreliable mid-run.
+> "You are an independent QA reviewer for a curriculum-sweep run. Read `AI-Reference-Materials/AI-Learning-Curriculum.md`, the run manifest at `<manifest-path>`, and the pre-run baseline snapshot at `<baseline-dir>` — compute this run's changes by diffing the current files against the snapshot. Do NOT use `git diff`: workspace auto-sync commits make live git unreliable mid-run.
 >
 > Check each failure mode, Pass/Fail:
 > | # | Failure mode | Pass definition |

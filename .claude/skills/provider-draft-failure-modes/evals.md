@@ -442,7 +442,7 @@ Target field: ~/.claude/projects/*/<session id>/subagents/*.meta.json spawnDepth
 Logic: FAIL per subagent with spawnDepth > 1; detail names the session, file and agent type. NOT MEASURABLE when no note names a session, or no metadata is found for them.
 ```
 
-**Source:** token-efficiency plan, changes 1 and 2 (`AI-Learning/Claude-Code-and-Skills/Token-Spend/skill-plans/provider-draft-failure-modes.md`). **Added:** 2026-11-06
+**Source:** token-efficiency plan, changes 1 and 2 (`AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/skill-plans/provider-draft-failure-modes.md`). **Added:** 2026-11-06
 **Notes:** the plan proposed this as E23; it is E26 because E23 to E25 were already taken.
 
 ### E27: Resume continuity

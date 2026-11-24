@@ -1,6 +1,6 @@
 # Evals: agent-architect
 
-These evals guard the token-efficiency changes in `AI-Learning/Claude-Code-and-Skills/Token-Spend/skill-plans/agent-architect.md` section 3. None has run yet.
+These evals guard the token-efficiency changes in `AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/skill-plans/agent-architect.md` section 3. None has run yet.
 
 ## Active Evals
 

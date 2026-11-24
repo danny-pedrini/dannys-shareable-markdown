@@ -25,7 +25,7 @@
 ```check
 Type: comparison
 Source field: run manifest (observability/manifests/<run>-manifest.json), link entries with link-level "planned": "explore"
-Target field: AI-Learning/Curriculum/AI-Learning-Curriculum.md (full file including Flags section)
+Target field: AI-Reference-Materials/AI-Learning-Curriculum.md (full file including Flags section)
 Logic: for each manifest URL, grep -F the curriculum for the unwrapped URL (strip urldefense wrapper, decode &amp;). Any URL with zero hits = Fail. Report the missing URLs.
 ```
 

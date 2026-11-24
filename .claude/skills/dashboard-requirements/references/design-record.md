@@ -401,7 +401,7 @@ The context the lenses need is on disk (intake transcript, gate-1). The 10/28 in
 
 ## 13. Patch record (2026-11-06, v1.5)
 
-**Decision.** Token-efficiency changes from `AI-Learning/Claude-Code-and-Skills/Token-Spend/skill-plans/dashboard-requirements.md` §3. Every check still runs, and every fix round still re-runs the full set. Fidelity stays its own subagent. The orchestrator still writes the document, and reviewers stay on their own types and models.
+**Decision.** Token-efficiency changes from `AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/skill-plans/dashboard-requirements.md` §3. Every check still runs, and every fix round still re-runs the full set. Fidelity stays its own subagent. The orchestrator still writes the document, and reviewers stay on their own types and models.
 
 | Change | Where |
 |---|---|

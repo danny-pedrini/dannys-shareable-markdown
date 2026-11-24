@@ -120,7 +120,7 @@ Read `forbidden-writing-patterns.md` and run every row in **Hard verification se
 - `Company-Context/`, `EMR-Onboarding/`: how Hims & Hers and the EMR work, plus the glossary and onboarding 1-pagers. Read these before using domain terms you are unsure of.
 - `Product-Strategy-and-Roadmaps/`, `Product-Development-Process/`, `User-Research/`, `Analytics/`: the core PM-craft artifacts.
 - `.claude/skills/`: custom PM skills (PRD generation, launch plans, meeting transcription, and more). When a task matches one, use the skill.
-- `AI-Learning/`, `Learning-and-Development/`: guides for leveling up as an AI PM. `AI-Learning/` is sorted into theme folders, with the curriculum in `AI-Learning/Curriculum/`. **MCP no-inference rule:** `AGENTS.md` § MCP sources.
+- `AI-Reference-Materials/`, `Learning-and-Development/`: guides for leveling up as an AI PM. `AI-Reference-Materials/` is sorted into theme folders, with the curriculum at `AI-Reference-Materials/AI-Learning-Curriculum.md`. **MCP no-inference rule:** `AGENTS.md` § MCP sources.
 
 ## Off-limits
 

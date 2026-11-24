@@ -59,7 +59,7 @@ Phases: **P** plan (Step 3), **I** inventory (Step 4), **D** draft (Step 7), **R
 
 **Post-run update, 2026-10-28 (evals-advisor, December Provider Pay Model run; Danny adopted these changes):** E36 now compares clauses inside kept rows, not just IDs and tiers. E04 and E16 honor recorded owner decisions, and the suite rule above makes that general. E23's Logic normalizes the title placeholder. E25 and E27 get their first calibration examples. E40 added for guardrails that imply a slice §3 excludes. Not adopted: an unset-parameter-to-§5 eval. Held for a second occurrence: source-term redefinition at cutover, and targets that rely on a driver the metric's construction excludes.
 
-**Token-efficiency update, 2026-11-06 (plan at `AI-Learning/Claude-Code-and-Skills/Token-Spend/skill-plans/dashboard-requirements.md`):** E41 to E44 added. They guard four changes: eval slices in place of the full file, one merged judgment subagent in D and R, reports saved by script, and a tool-restricted QA agent type. Mechanical checks now run as a script; every Code eval and its Logic block is unchanged.
+**Token-efficiency update, 2026-11-06 (plan at `AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/skill-plans/dashboard-requirements.md`):** E41 to E44 added. They guard four changes: eval slices in place of the full file, one merged judgment subagent in D and R, reports saved by script, and a tool-restricted QA agent type. Mechanical checks now run as a script; every Code eval and its Logic block is unchanged.
 
 ## Definitions
 
