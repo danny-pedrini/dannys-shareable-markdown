@@ -1,8 +1,8 @@
 # Reading list
 
-These are the outside guides behind my AI-Learning notes. I keep full copies in my private workspace. This public repo links to the originals instead, because the writing belongs to their authors. Several are paid posts on Aakash Gupta's *Product Growth* newsletter, so you'll need a subscription to read them in full.
+These are the outside guides behind my AI reference notes. I keep full copies in my private workspace. This public repo links to the originals instead, because the writing belongs to their authors. Several are paid posts on Aakash Gupta's *Product Growth* newsletter, so you'll need a subscription to read them in full.
 
-My own notes built on these sources are in this folder: the [curriculum](Curriculum/AI-Learning-Curriculum.md), the [AI product sense question bank](Curriculum/aakash-ai-pm-curriculum/ai-product-sense/ai-product-sense-question-bank.md), the [Thinking in Systems guides](Systems-Thinking/Thinking-In-Systems/), and the [token-spend analysis](Claude-Code-and-Skills/Token-Spend/).
+My own notes built on these sources are in this folder: the [curriculum](AI-Learning-Curriculum.md), the [AI product sense question bank](AI-Product-Craft/ai-product-sense/ai-product-sense-question-bank.md), the [Thinking in Systems guides](Systems-Thinking/Thinking-In-Systems/), and the [token-spend analysis](Claude-Code-and-Skills/Token-Spend/).
 
 ## Evals and observability
 

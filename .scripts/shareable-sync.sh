@@ -1,5 +1,5 @@
 #!/bin/bash
-# Publishes root-level files, AI-Learning/, .claude/, .scripts/, and Templates/ to
+# Publishes root-level files, AI-Reference-Materials/, .claude/, .scripts/, and Templates/ to
 # danny-pedrini/dannys-shareable-markdown. What publishes is set by
 # shareable-sync-filter.txt. shareable-scrub.py then scrubs the export copy, and a secret scan
 # runs before every commit. Either one blocks the push on any hit.

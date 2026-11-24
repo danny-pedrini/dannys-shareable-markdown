@@ -52,4 +52,4 @@ repos/
 Session-Handoffs/
 
 # Token-spend replay fixtures. Local only. May hold source excerpts.
-AI-Learning/Claude-Code-and-Skills/Token-Spend/replays/
+AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/replays/

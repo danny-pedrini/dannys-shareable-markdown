@@ -35,39 +35,39 @@
 # Journey-map example render: real research numbers and quotes (its JSON spec is stubbed by the scrub)
 - /.claude/skills/journey-map/references/examples/patient-provider-journey-reference.png
 
-# AI-Learning: local fixtures, vendor evaluations, and book captures
-- /AI-Learning/.claude/
-- /AI-Learning/Claude-Code-and-Skills/Token-Spend/replays/
-- /AI-Learning/Vendor-Evaluations/
-- /AI-Learning/Systems-Thinking/Thinking-In-Systems/Screenshot*
-- /AI-Learning/Systems-Thinking/Thinking-In-Systems/recording.json
+# AI-Reference-Materials: local fixtures, vendor evaluations, and book captures
+- /AI-Reference-Materials/.claude/
+- /AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/replays/
+- /AI-Reference-Materials/Vendor-Evaluations/
+- /AI-Reference-Materials/Systems-Thinking/Thinking-In-Systems/Screenshot*
+- /AI-Reference-Materials/Systems-Thinking/Thinking-In-Systems/recording.json
 
-# AI-Learning: copies of other people's published work (Aakash Gupta's Product
-# Growth posts, two talk transcripts). AI-Learning/Reading-List.md links to the
+# AI-Reference-Materials: copies of other people's published work (Aakash Gupta's Product
+# Growth posts, two talk transcripts). AI-Reference-Materials/Reading-List.md links to the
 # originals instead. Danny's own notes on them still publish.
-- /AI-Learning/Curriculum/aakash-ai-pm-curriculum/everything-you-need-to-know-about-ai.md
-- /AI-Learning/Curriculum/aakash-ai-pm-curriculum/ai-product-sense/ai-product-sense-complete-guide.md
-- /AI-Learning/Curriculum/aakash-ai-pm-curriculum/ai-product-sense/*.webp
-- /AI-Learning/Curriculum/aakash-ai-pm-curriculum/ai-product-sense/*.png
-- /AI-Learning/Agents-and-Loops/AI-Agents-Ultimate-Guide-for-PMs.md
-- /AI-Learning/Agents-and-Loops/OpenClaw-Complete-Guide.md
-- /AI-Learning/Agents-and-Loops/PMs-Guide-to-Karpathy-Autoresearch.md
-- /AI-Learning/Agents-and-Loops/Ralph-Wiggum-Claude-Code-Technique.md
-- /AI-Learning/Agents-and-Loops/Loop-Engineering-for-Beginners-HowIAI-Transcript.md
-- /AI-Learning/Evals-and-Observability/AI-Evals-Ultimate-Guide-for-PMs.md
-- /AI-Learning/Evals-and-Observability/AI-LLM-Judges-Ultimate-Guide-for-PMs.md
-- /AI-Learning/Evals-and-Observability/AI-Observability-Ultimate-Guide-for-PMs.md
-- /AI-Learning/Evals-and-Observability/AI-Testing-Ultimate-Guide-for-PMs.md
-- /AI-Learning/Evals-and-Observability/AI-Evals-Self-Improving-Agents-Aparna-Arize/transcript.md
-- /AI-Learning/Prompt-and-Context-Engineering/Context-Engineering-Ultimate-Guide-for-PMs.md
-- /AI-Learning/Prompt-and-Context-Engineering/Prompt-Engineering-2025-Best-Practices.md
-- /AI-Learning/Claude-Code-and-Skills/Anthropic-Automation-Layer-PM-Setup-Guide.md
-- /AI-Learning/Claude-Code-and-Skills/Claude-Code-and-Cowork-Setup-Guide.md
-- /AI-Learning/AI-Product-Craft/AI-Product-Sense-Ultimate-Guide-for-PMs.md
-- /AI-Learning/AI-Product-Craft/AI-Product-Discovery-Masterclass.md
+- /AI-Reference-Materials/AI-Product-Craft/everything-you-need-to-know-about-ai.md
+- /AI-Reference-Materials/AI-Product-Craft/ai-product-sense/ai-product-sense-complete-guide.md
+- /AI-Reference-Materials/AI-Product-Craft/ai-product-sense/*.webp
+- /AI-Reference-Materials/AI-Product-Craft/ai-product-sense/*.png
+- /AI-Reference-Materials/Agents-and-Loops/AI-Agents-Ultimate-Guide-for-PMs.md
+- /AI-Reference-Materials/Agents-and-Loops/OpenClaw-Complete-Guide.md
+- /AI-Reference-Materials/Agents-and-Loops/PMs-Guide-to-Karpathy-Autoresearch.md
+- /AI-Reference-Materials/Agents-and-Loops/Ralph-Wiggum-Claude-Code-Technique.md
+- /AI-Reference-Materials/Agents-and-Loops/Loop-Engineering-for-Beginners-HowIAI-Transcript.md
+- /AI-Reference-Materials/Evals-and-Observability/AI-Evals-Ultimate-Guide-for-PMs.md
+- /AI-Reference-Materials/Evals-and-Observability/AI-LLM-Judges-Ultimate-Guide-for-PMs.md
+- /AI-Reference-Materials/Evals-and-Observability/AI-Observability-Ultimate-Guide-for-PMs.md
+- /AI-Reference-Materials/Evals-and-Observability/AI-Testing-Ultimate-Guide-for-PMs.md
+- /AI-Reference-Materials/Evals-and-Observability/AI-Evals-Self-Improving-Agents-Aparna-Arize/transcript.md
+- /AI-Reference-Materials/Prompt-and-Context-Engineering/Context-Engineering-Ultimate-Guide-for-PMs.md
+- /AI-Reference-Materials/Prompt-and-Context-Engineering/Prompt-Engineering-2025-Best-Practices.md
+- /AI-Reference-Materials/Claude-Code-and-Skills/Anthropic-Automation-Layer-PM-Setup-Guide.md
+- /AI-Reference-Materials/Claude-Code-and-Skills/Claude-Code-and-Cowork-Setup-Guide.md
+- /AI-Reference-Materials/AI-Product-Craft/AI-Product-Sense-Ultimate-Guide-for-PMs.md
+- /AI-Reference-Materials/AI-Product-Craft/AI-Product-Discovery-Masterclass.md
 
 # What publishes: root-level files plus these four folders. Nothing else.
-+ /AI-Learning/
++ /AI-Reference-Materials/
 + /.claude/
 + /.scripts/
 + /Templates/

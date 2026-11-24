@@ -18,7 +18,7 @@ cd "$TARGET" || { echo "$(date '+%Y-%m-%d %H:%M:%S') ERROR: Could not cd to $TAR
 
 rsync -a --delete "$SOURCE/.claude/" "$TARGET/.claude/"
 rsync -a --delete --exclude='*.log' --exclude='.shareable-sync/' "$SOURCE/.scripts/" "$TARGET/.scripts/"
-rsync -a --delete "$SOURCE/AI-Learning/" "$TARGET/AI-Learning/"
+rsync -a --delete "$SOURCE/AI-Reference-Materials/" "$TARGET/AI-Reference-Materials/"
 rsync -a --delete "$SOURCE/Learning-and-Development/" "$TARGET/Learning-and-Development/"
 rsync -a --delete "$SOURCE/Templates/" "$TARGET/Templates/"
 # CLAUDE.md is a symlink to AGENTS.md, so copy both or the link points at nothing.
@@ -26,8 +26,8 @@ rsync -a "$SOURCE/AGENTS.md" "$TARGET/AGENTS.md"
 rsync -a "$SOURCE/CLAUDE.md" "$TARGET/CLAUDE.md"
 mkdir -p "$TARGET/Quality-of-Care"
 rsync -a "$SOURCE/Quality-of-Care/Danny's To Do List.md" "$TARGET/Quality-of-Care/Danny's To Do List.md"
-# Renamed or moved on 2026-11-20. Remove the stale copies so the target matches the source.
-rm -rf "$TARGET/AI-Best-Practices" "$TARGET/Danny's To Do List.md"
+# Renamed or moved on 2026-11-20 and 2026-11-23 (AI-Learning became AI-Reference-Materials). Remove the stale copies so the target matches the source.
+rm -rf "$TARGET/AI-Best-Practices" "$TARGET/AI-Learning" "$TARGET/Danny's To Do List.md"
 
 git add -A
 

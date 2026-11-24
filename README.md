@@ -42,7 +42,7 @@ The skills in this repo carry more than 260 evals between them, most written at 
 
 - **A human approves anything that leaves the building.** Skills that file tickets, update docs, or draft messages stop at a gate and wait for me.
 - **No inference from missing sources.** If Slack, Confluence, or a Google Doc fails to load, the skill says so and stops. It never fills the gap with a plausible guess.
-- **Cost gets measured like quality.** The [token-spend analysis](AI-Learning/Claude-Code-and-Skills/Token-Spend/) is how I measured what my AI use costs and planned cuts that keep every quality check.
+- **Cost gets measured like quality.** The [token-spend analysis](AI-Reference-Materials/Claude-Code-and-Skills/Token-Spend/) is how I measured what my AI use costs and planned cuts that keep every quality check.
 - **It has to sound like a person wrote it.** [danny-voice-exemplar.md](danny-voice-exemplar.md) shows what my writing sounds like, and [forbidden-writing-patterns.md](forbidden-writing-patterns.md) lists the AI tells every draft gets searched for.
 
 ## What's in the repo
@@ -52,7 +52,7 @@ The skills in this repo carry more than 260 evals between them, most written at 
 | [`.claude/skills/`](.claude/skills/) | 25 skills: PRDs, acceptance tests, feature briefs, impact sizing, dashboard requirements, launch plans, decks, journey maps, prototypes, meeting transcription, and more |
 | [`.claude/agents/`](.claude/agents/) | 12 reviewer personas, plus the lean worker and judge agents the skills launch |
 | [`Templates/`](Templates/) | The PRD, feature brief, acceptance testing, and dashboard templates the skills fill in |
-| [`AI-Learning/`](AI-Learning/) | My AI learning curriculum, notes on evals, agents, and systems thinking, and a [reading list](AI-Learning/Reading-List.md) of the outside guides I learned from |
+| [`AI-Reference-Materials/`](AI-Reference-Materials/) | My AI learning curriculum, notes on evals, agents, and systems thinking, and a [reading list](AI-Reference-Materials/Reading-List.md) of the outside guides I learned from |
 | [`.scripts/`](.scripts/) | The automation that runs on its own: workspace sync, a daily Substack briefing, and the sync that publishes this repo |
 
 Skills that call Slack, Jira, Confluence, or Google Workspace need those connections to run, so read them as worked examples more than drop-in tools.
@@ -65,6 +65,6 @@ My private workspace is full of real colleagues and internal company work, so th
 - Links to internal docs, dashboards, and tickets are removed.
 - Files that hold internal material are replaced with a short note saying what they do.
 - Dollar figures in skill examples are altered, but they keep their ratios so the worked examples still add up.
-- Articles by other writers appear as short pointer files, each with a link to the original, in the folder where I filed them. The [reading list](AI-Learning/Reading-List.md) collects them in one place.
+- Articles by other writers appear as short pointer files, each with a link to the original, in the folder where I filed them. The [reading list](AI-Reference-Materials/Reading-List.md) collects them in one place.
 
 The scrub is automated too. [shareable-sync.sh](.scripts/shareable-sync.sh) copies an allowlist of folders. Then [shareable-scrub.py](.scripts/shareable-scrub.py) rewrites the copy and checks it, and it refuses to push if a known name, internal link, or work email survives.

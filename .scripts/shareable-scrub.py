@@ -13,7 +13,7 @@ The private config dir (never published) holds:
   phrases.tsv      literal<TAB>replacement, applied first.
   scale.txt        the factor dollar figures are multiplied by.
   README.md        copied to the export root.
-  Reading-List.md  copied to AI-Learning/.
+  Reading-List.md  copied to AI-Reference-Materials/.
   link-stubs/      pointer files copied into the export at the same paths, in place of
                    excluded copies of other people's articles.
 
@@ -59,7 +59,7 @@ SECTION_STUBS = [
      "below show the same voice in shorter pieces.\n\n---\n\n"),
 ]
 
-COPIES = [("README.md", "README.md"), ("Reading-List.md", "AI-Learning/Reading-List.md")]
+COPIES = [("README.md", "README.md"), ("Reading-List.md", "AI-Reference-Materials/Reading-List.md")]
 
 INTERNAL_HOST = (r"https?://(?:[\w-]+\.)*(?:docs\.google\.com|drive\.google\.com|mail\.google\.com|"
                  r"atlassian\.net|looker\.com|slack\.com|figma\.com|loom\.com)(?:/[^\s)\]>\"'`|]*)?"
